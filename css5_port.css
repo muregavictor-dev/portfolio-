@@ -464,23 +464,7 @@ button:hover {
         flex-direction: column; 
     }
 
-    @media (max-width: 768px) {
-        .image {
-            width: 60vw;
-            height: 0vw;
-            right: 5vw; /* Adjust positioning for smaller screens */
-            top: 45vh;
-        }
-    }
-    
-    @media (max-width: 480px) {
-        .image {
-            width: 30vw;
-            height: 30vw;
-            right: 5vw;
-            top: 45vh;
-        }
-    }
+   
     
 
     .navbar li {
