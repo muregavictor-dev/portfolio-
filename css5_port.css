@@ -469,7 +469,7 @@ button:hover {
             width: 60vw;
             height: 0vw;
             right: 5vw; /* Adjust positioning for smaller screens */
-            top: 5vh;
+            top: 45vh;
         }
     }
     
@@ -478,7 +478,7 @@ button:hover {
             width: 30vw;
             height: 30vw;
             right: 5vw;
-            top: 5vh;
+            top: 45vh;
         }
     }
     
