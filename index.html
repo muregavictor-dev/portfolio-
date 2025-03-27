@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Victor Murithi - Web Developer Portfolio</title>
 
-    <link rel="stylesheet" href="css5_port.css"> <!-- Link to the new CSS file -->
+    <link rel="stylesheet" href="css5_port.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -14,42 +14,35 @@
         <h2>Web Developer | Frontend | Backend | Full Stack</h2>
 
         <nav class="navbar">
-                <a href="About.html">About Me</a>
-                <a href="projects.html">Projects</a>
-                <a href="Testimonials.html">Testimonials</a>
-                <a href="contact.html">Contact</a>
+            <a href="about.html">About Me</a>
+            <a href="projects.html">Projects</a>
+            <a href="testimonials.html">Testimonials</a>
+            <a href="contact.html">Contact</a>
         </nav>
-        <h2>HOME PAGE</h2>
     </header>
-    <div class="container">
+    
+    <section class="container">
+        <h2>Home Page</h2>
         <div id="about">
             <h3>About Me</h3>
-             <section class="image">
-        <img src="Logopit_1739303751290.png">
-</section> 
-            <p>I am a <strong>passionate and driven software development student</strong> at <strong>The Nyeri National Polytechnic</strong>, specializing in <strong>web development and full-stack engineering</strong>.<br> My journey in tech is fueled by a deep curiosity for problem-solving and a strong commitment to creating <strong>efficient, scalable, and user-friendly applications</strong>.</p>
-            
-            <p>Currently, I am refining my skills in <strong>frontend and backend development</strong>, working with technologies like <strong>HTML, CSS, JavaScript, React, Node.js, and Django</strong>.<br> I enjoy transforming ideas into functional and visually appealing digital experiences while continuously exploring new tools and frameworks.</p>
-            
-            <p>As I progress in my learning journey, my goal is to <strong>gain hands-on experience, collaborate on real-world projects, and grow into a proficient full-stack developer</strong>. I am always eager to <strong>learn, innovate, and contribute to meaningful solutions</strong> in the ever-evolving world of technology.</p>
+            <section class="image">
+                <img src="Logopit_1739303751290.png" alt="Victor Murithi Profile Image">
+            </section> 
+            <p>I am a <strong>passionate and driven software development student</strong> at <strong>The Nyeri National Polytechnic</strong>, specializing in <strong>web development and full-stack engineering</strong>.</p>
+            <p>Currently, I am refining my skills in <strong>frontend and backend development</strong>, working with technologies like <strong>HTML, CSS, JavaScript, React, Node.js, and Django</strong>.</p>
+            <p>As I progress, my goal is to <strong>gain hands-on experience, collaborate on real-world projects, and grow into a proficient full-stack developer</strong>.</p>
         </div>
-    </div>
-   
+    </section>
 
-
-
-     
     <div class="cta">
         <h2>Ready to Work Together?</h2>
         <p>If you're looking for a dedicated web developer, reach out!</p>
         <div class="c-t-a cta-button">
-        <a href="#" class="cta-button contact-button">Contact Me</a>
+            <a href="#" id="open-contact-form" class="cta-button contact-button">Contact Me</a>
+        </div>
     </div>
-    </div>
-    
 
-    <!-- Contact Form (Initially Hidden) -->
-    <div id="contact-form-container">
+    <div id="contact-form-container" style="display: none;">
         <div id="contact-form-box">
             <h2>Contact Me</h2>
             <form id="contact-form">
@@ -62,33 +55,30 @@
                 <label for="message">Message:</label>
                 <textarea id="message" name="message" required></textarea>
                 
-                <button type="submit">Message</button>
-                <br>
-                <br>
+                <button type="submit">Send Message</button>
                 <button type="button" id="close-form">Close</button>
             </form>
         </div>
     </div>
-</body>
 
     <div class="icons"> 
-        <a href="https://www.facebook.com/victor m murega" target="_blank">
-            <img src="https://cdn-icons-png.flaticon.com/512/1384/1384053.png" alt="Facebook Icon" class="responsive">
+        <a href="https://www.facebook.com/victormmurega" target="_blank">
+            <img src="https://cdn-icons-png.flaticon.com/512/1384/1384053.png" alt="Facebook" class="responsive">
         </a>
         <a href="https://www.instagram.com/muregav" target="_blank">
-            <img src="https://cdn-icons-png.flaticon.com/512/1384/1384063.png" alt="Instagram Icon" class="responsive">
+            <img src="https://cdn-icons-png.flaticon.com/512/1384/1384063.png" alt="Instagram" class="responsive">
         </a>
-        <a href="https://twitter.com/@victor_murega" target="_blank">
-            <img src="https://cdn-icons-png.flaticon.com/512/733/733579.png" alt="Twitter Icon" class="responsive">
+        <a href="https://twitter.com/victor_murega" target="_blank">
+            <img src="https://cdn-icons-png.flaticon.com/512/733/733579.png" alt="Twitter" class="responsive">
         </a>
         <a href="https://www.linkedin.com/in/victor-murithi-86a630355" target="_blank">
-            <img src="https://cdn-icons-png.flaticon.com/512/1384/1384046.png" alt="LinkedIn Icon" class="responsive">
+            <img src="https://cdn-icons-png.flaticon.com/512/1384/1384046.png" alt="LinkedIn" class="responsive">
         </a>
         <a href="https://wa.me/254112127975" target="_blank">
-            <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" alt="WhatsApp Icon" class="responsive">
+            <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" alt="WhatsApp" class="responsive">
         </a>
         <a href="https://www.tiktok.com/@uservickie85" target="_blank">
-            <img src="https://cdn-icons-png.flaticon.com/512/3046/3046126.png" alt="TikTok Icon" class="responsive">
+            <img src="https://cdn-icons-png.flaticon.com/512/3046/3046126.png" alt="TikTok" class="responsive">
         </a>
     </div>
 
@@ -96,6 +86,6 @@
         <p>&copy; 2023 Victor Murithi. All rights reserved.</p>
     </footer>
 
-    <script src="script.js"></script> <!-- External JavaScript File -->
-
+    <script src="script.js"></script>
+</body>
 </html>
