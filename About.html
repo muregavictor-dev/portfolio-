@@ -3,79 +3,137 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Victor Murithi - Software Developer Portfolio</title>
-
-    <link rel="stylesheet" href="css5_port.css"> <!-- Link to the CSS file -->
-
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"> <!-- Google Font -->
+    <meta name="description" content="Learn more about Victor M Murega, a passionate Software Developer student at The Nyeri National Polytechnic. Discover his skills, education, and career aspirations.">
+    <meta name="keywords" content="Victor M Murega, Software Developer, About, Skills, Education, Nyeri National Polytechnic, Full-Stack Developer, Software Engineering">
+    <meta name="author" content="Victor M Murega">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>About | Victor M Murega</title>
 </head>
 <body>
+     <!-- Preloader -->
+     <div id="preloader">
+        <div class="loader"></div>
+     </div>
+    <script src="script.js"></script>
+    <!-- Header Section -->
     <header>
-        <h1>Victor Murithi</h1>
-        <h2>Software Developer | Web Development | Full Stack Enthusiast</h2>
-
-        <nav class="navbar">
-            <a href="index.html">Home</a>
-            <a href="projects.html">Projects</a>
-            <a href="testimonials.html">Testimonials</a>
-            <a href="contact.html">Contact</a>
+        <div class="logo">
+            <img src="assets/profile-logo.jpg" alt="Victor M Murega Logo">
+        </div>
+        <h1>VICTOR M MUREGA</h1>
+        <button id="menu-toggle">☰</button>
+        <nav>
+            <ul id="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="skills.html">Skills</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
         </nav>
-        <h2>ABOUT</h2>
     </header>
-
-    <section class="image">
-        <img src="Logopit_1739303751290.png" alt="Victor Murithi">
-    </section>
-
-    <div class="container">
-        <div id="about">
-            <h3>About Me</h3>
-            <p>I am a <strong>passionate and driven software development student</strong> at <strong>The Nyeri National Polytechnic</strong>, specializing in <strong>web development and full-stack engineering</strong>. My journey in tech is fueled by a deep curiosity for problem-solving and a strong commitment to creating <strong>efficient, scalable, and user-friendly applications</strong>.</p>
-            
-            <p>Currently, I am refining my skills in <strong>frontend and backend development</strong>, working with technologies like <strong>HTML, CSS, JavaScript, React, Node.js, and Django</strong>. I enjoy transforming ideas into functional and visually appealing digital experiences while continuously exploring new tools and frameworks.</p>
-            
-            <p>As I progress in my learning journey, my goal is to <strong>gain hands-on experience, collaborate on real-world projects, and grow into a proficient full-stack developer</strong>. I am always eager to <strong>learn, innovate, and contribute to meaningful solutions</strong> in the ever-evolving world of technology.</p>
-        </div>
-    </div>
-    <div class="container">
-        
-        <!-- Skills Section -->
-        <div class="section">
-            <h3 class="section-title">
-                <span class="icon">📋</span> Skills
-            </h3>
-            <ul class="skills-list">
-                <li><strong>Frontend:</strong> HTML, CSS, JavaScript, React</li>
-                <li><strong>Backend:</strong> Node.js, Express, Django, Flask</li>
-                <li><strong>Databases:</strong> MySQL, PostgreSQL, MongoDB</li>
-                <li><strong>Other Tools:</strong> Git, Docker, Firebase</li>
-                <li><strong>UI/UX:</strong> Figma, Adobe XD, Tailwind CSS</li>
-            </ul>
-        </div>
-
-        <!-- Education Section -->
-        <div class="section">
-            <h3 class="section-title">
-                <span class="icon">🎓</span> Education
-            </h3>
-            <p><strong>Diploma in Software Development</strong> - The Nyeri National Polytechnic (Expected 2027)</p>
-        </div>
-
-        <!-- Certifications Section -->
-        <div class="section">
-            <h3 class="section-title">
-                <span class="icon">🏆</span> Certifications
-            </h3>
-            <ul class="certifications-list">
-                <li>JavaScript Certification - (Pending/Completed, Year)</li>
-                <li>Other Relevant Certification - (Pending/Completed, Year)</li>
-            </ul>
-        </div>
-
-    </div>
     
-    </body>
-
+    
+    <section id="about">
+        
+        <h1>About Me</h1>
+        <div class="profile-photo">
+            <img src="profile.jpg" alt="Victor M Murega Photo">
+        </div>
+        <p>Hello! I'm Victor M Murega, a dedicated Software Developer student at The Nyeri National Polytechnic. Passionate about building scalable and efficient software solutions, I specialize in web development, programming, and problem-solving. My focus is on creating innovative solutions that optimize user experiences and improve business processes.</p>
+        <p>I am an avid learner who enjoys tackling complex challenges, collaborating with other developers, and continuously refining my skills to stay ahead in the fast-evolving tech industry.</p>
+    
+    </section>
+    
+    <section id="education">
+        
+        <h2>Education</h2>
+        <p><strong>The Nyeri National Polytechnic</strong> - Level 6 in Software Development</p>
+        <p>Relevant coursework includes:</p>
+        <ul>
+            <li>Data Structures and Algorithms</li>
+            <li>Object-Oriented Programming (OOP)</li>
+            <li>Database Management Systems (DBMS)</li>
+            <li>Full-Stack Web Development</li>
+            <li>Cybersecurity Fundamentals</li>
+        </ul>
+        <p>Through my studies, I have gained hands-on experience in software engineering principles, collaborative project development, and industry best practices.</p>
+        
+    </section>
+    
+    <section id="skills">
+        <h2>Skills & Technologies</h2>
+        <p>My technical expertise includes:</p>
+    
+        <ul>
+            <li><strong>Programming Languages:</strong> Python, JavaScript, C++, Java</li>
+            <li><strong>Web Development:</strong> HTML, CSS, React, Node.js, Express.js</li>
+            <li><strong>Database Management:</strong> MySQL, MongoDB, Firebase</li>
+            <li><strong>Version Control & Collaboration:</strong> Git, GitHub, Agile methodologies</li>
+            <li><strong>Cloud Computing & DevOps:</strong> AWS, Docker, CI/CD pipelines</li>
+            <li><strong>Cybersecurity:</strong> Network Security, Ethical Hacking Basics</li>
+        </ul>
+    
+        <div class="skills-summary">
+            <p>
+                Beyond technical skills, I possess strong analytical thinking, problem-solving abilities, 
+                and excellent communication skills, making me a valuable team player in any software development environment.
+            </p>
+        </div>
+    </section>
+    
+    
+    <section id="career-goals">
+        <h2>Career Goals</h2>
+        <p>My long-term goal is to become a full-stack software engineer, specializing in cloud-based applications and scalable software solutions. I am particularly interested in artificial intelligence, blockchain technology, and cybersecurity.</p>
+        <p>Short-term, I am eager to join a forward-thinking company where I can contribute to impactful projects while expanding my knowledge and gaining real-world industry experience.</p>
+    </section>
+    
+    <section id="experience">
+        <h2>Internships & Experience</h2>
+        <p><strong>Software Development Intern - Tech Startup (Remote)</strong></p>
+        <ul>
+            <li>Collaborated with a team to develop and deploy a dynamic web application.</li>
+            <li>Implemented RESTful APIs to integrate with external services.</li>
+            <li>Utilized GitHub for version control and Agile sprints for project management.</li>
+        </ul>
+        <p><strong>Freelance Web Developer</strong></p>
+        <ul>
+            <li>Designed and developed custom websites for local businesses.</li>
+            <li>Optimized websites for SEO, performance, and mobile responsiveness.</li>
+            <li>Integrated secure payment gateways and user authentication systems.</li>
+        </ul>
+    </section>
+    
+    <section id="certifications">
+        <h2>Certifications & Training</h2>
+        <ul>
+            <li>Google IT Support Professional Certificate</li>
+            <li>Responsive Web Design - FreeCodeCamp</li>
+            <li>AWS Cloud Practitioner Essentials</li>
+            <li>Introduction to Cybersecurity - Cisco Networking Academy</li>
+        </ul>
+    </section>
+    
+    <section id="resume">
+        <h2>Download Resume</h2>
+        <p>Feel free to download my resume for more details on my experience and skills.</p>
+        <button>
+        <a href="resume.pdf" download>Download My Resume</a>
+        </button>
+    </section>
+    
+    <footer>
+        <nav>
+        
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="projects.html">Projects</a>
+            <a href="skills.html">Skills</a>
+            <a href="contact.html">Contact</a>
+        
+    </nav>
     <div class="icons"> 
         <a href="https://www.facebook.com/victor m murega" target="_blank">
             <img src="https://cdn-icons-png.flaticon.com/512/1384/1384053.png" alt="Facebook Icon" class="responsive">
@@ -96,12 +154,7 @@
             <img src="https://cdn-icons-png.flaticon.com/512/3046/3046126.png" alt="TikTok Icon" class="responsive">
         </a>
     </div>
-
-    <footer>
-        <p>&copy; 2025 Victor Murithi. All rights reserved.</p>
-        <marquee>Thank you for visiting my portfolio.</marquee>
+        <p>&copy; 2025 Victor M Murega. All Rights Reserved.</p>
     </footer>
-
-    
-    <script src="script.js"></script>
+</body>
 </html>
